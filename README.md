@@ -10,7 +10,7 @@ This repository contains a set of scripts designed specifically for my use case.
 ### db_creation.py
 This script moves podcast files between folders and updates or adds tags for each file. It relies on a database created by the db_creation.py script to determine the current track numbers and uses this information to properly tag new podcast episodes.
 
-*Usage*:
+**Usage**:
 1. Ensure that you have run the db_creation.py script first to create a database of your existing podcasts.
 2. Place the new podcast files in the input folder.
 3. Run this script (tagging_moving_podcasts.py) to update or add tags and move podcast files to the destination folder.
